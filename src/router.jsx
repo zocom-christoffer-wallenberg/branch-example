@@ -14,6 +14,6 @@ const router = createBrowserRouter([
       path: '/om',
       element: <About />,
     }
-]);
+], { basename:"/branch-example" });
 
 export default router;
