@@ -9,7 +9,7 @@ import router from './router';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='/branch-example'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
